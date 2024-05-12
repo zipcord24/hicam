@@ -1,0 +1,11 @@
+body{
+    background-color: limegreen;
+}
+
+#wrong{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 780%;
+    top: 15%;
+    position: absolute;
+}

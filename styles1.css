@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(63, 63, 63);
+    overflow: hidden;
+}
+
+.bag{
+    width: 120%;
+    height: 25em;
+    position: absolute;
+    left: -1em;
+    top: 12em;
+    background-color: rgb(163, 43, 135);
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: OCR A Std, monospace;
+    color: gainsboro;
+    text-shadow: -1px -1px 0 #943c3c, 1px -1px 0 #943c3c, -1px 1px 0 #943c3c, 1px 1px 0 #943c3c;
+}
+
+.container {
+    margin: 20px auto;
+    width: 100%; /* Adjusted to make buttons span the entire width */
+    position: absolute;
+    top: 10em;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button {
+    background-color: rgb(99, 27, 82);
+    border-width: 0px;
+    color: white;
+    padding: 12.5px 0; /* Adjusted padding to make buttons span the entire width */
+    width: 120%; /* Added to make buttons span the entire width */
+    text-align: left;
+    text-indent: 2.5em;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin: 10px;
+  }
+  
+  .button:hover {
+    background-color: darkred;
+  }
