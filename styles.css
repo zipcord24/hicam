@@ -37,9 +37,6 @@ h1 {
 }
 
 #md{
-    text-decoration: line-through;
-    text-decoration-color: #d32047;
-    text-decoration-thickness: 2px;
     transform: rotate(-1deg);
 }
 
